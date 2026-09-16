@@ -1,0 +1,176 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/OneDrive - unb.br/8o_semestre/fpga/projetos/ALU
+Ealu
+Z1 w1789573987
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 10
+R0
+Z5 8ALU.vhdl
+Z6 FALU.vhdl
+l0
+L5 1
+VeoKYNV8eS7]cdcQ2GQGNT0
+!s100 6A=KeW>zXGX0kl7nM16[;2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1789575322
+!i10b 1
+Z9 !s108 1789575321.000000
+Z10 !s90 -reportprogress|300|ALU.vhdl|
+Z11 !s107 ALU.vhdl|
+!i113 1
+Z12 tExplicit 1 CvgOpt 0
+Artl
+Z13 DEx4 work 14 alu_arithmetic 0 22 k?YRKc<PGTTTzQVZgllPB3
+Z14 DEx4 work 11 alu_logical 0 22 C12[jNdS]omfSz72B^mId0
+R2
+R3
+R4
+Z15 DEx4 work 3 alu 0 22 eoKYNV8eS7]cdcQ2GQGNT0
+!i122 10
+l20
+L17 28
+V<aVEAMH>[VPb[ZNVaG6z41
+!s100 glcE>:`BW[7=eO?iQ0`J=0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+Ealu_arithmetic
+Z16 w1789575307
+R2
+R3
+R4
+!i122 9
+R0
+Z17 8ALU_arithmetic.vhdl
+Z18 FALU_arithmetic.vhdl
+l0
+L5 1
+Vk?YRKc<PGTTTzQVZgllPB3
+!s100 l[`cToN@C28F`a?M5aZLF0
+R7
+32
+Z19 !s110 1789575321
+!i10b 1
+R9
+Z20 !s90 -reportprogress|300|ALU_arithmetic.vhdl|
+Z21 !s107 ALU_arithmetic.vhdl|
+!i113 1
+R12
+Artl
+R2
+R3
+R4
+R13
+!i122 9
+l18
+L17 9
+VNFl<02NzMdaDeOJ[aMOkP1
+!s100 PhVWei`PoQJ>oVG^k6RGG0
+R7
+32
+R19
+!i10b 1
+R9
+R20
+R21
+!i113 1
+R12
+Ealu_logical
+Z22 w1789574154
+R3
+R4
+!i122 8
+R0
+Z23 8ALU_logical.vhdl
+Z24 FALU_logical.vhdl
+l0
+L4 1
+VC12[jNdS]omfSz72B^mId0
+!s100 dzWUHchiX_3B:N<XkKiLQ0
+R7
+32
+R19
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|ALU_logical.vhdl|
+Z26 !s107 ALU_logical.vhdl|
+!i113 1
+R12
+Artl
+R3
+R4
+R14
+!i122 8
+l17
+L16 9
+V<iAZ`g5MV:d>[Ta1Y][Vk2
+!s100 @A5]c>1Ro5UH4ledonYn`1
+R7
+32
+R19
+!i10b 1
+R9
+R25
+R26
+!i113 1
+R12
+Ealu_tb
+Z27 w1789574427
+R2
+R3
+R4
+!i122 11
+R0
+Z28 8ALU_tb.vhdl
+Z29 FALU_tb.vhdl
+l0
+L5 1
+VHfinK;RbofYj]3_oUE5d32
+!s100 XGjn7i0n=AQ1HVeB7h1<61
+R7
+32
+R8
+!i10b 1
+Z30 !s108 1789575322.000000
+Z31 !s90 -reportprogress|300|ALU_tb.vhdl|
+Z32 !s107 ALU_tb.vhdl|
+!i113 1
+R12
+Asim
+R15
+R2
+R3
+R4
+Z33 DEx4 work 6 alu_tb 0 22 HfinK;RbofYj]3_oUE5d32
+!i122 11
+l15
+Z34 L8 85
+Z35 VlJVhV@BhdJkB;WHKZ=^TI1
+Z36 !s100 [hL]B8Sm0Oh<CbcSGE5@21
+R7
+32
+R8
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R12
