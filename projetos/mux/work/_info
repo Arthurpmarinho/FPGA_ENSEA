@@ -1,0 +1,90 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/OneDrive - unb.br/8o_semestre/fpga/projetos/mux
+Emux
+Z1 w1789572415
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8mux.vhdl
+Z5 Fmux.vhdl
+l0
+L4 1
+VDCMOgeb6RCiIcTzef[DCB3
+!s100 o>>]lK:AU_b6^k^OC`4hk1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1789572714
+!i10b 1
+Z8 !s108 1789572714.000000
+Z9 !s90 -reportprogress|300|mux.vhdl|
+Z10 !s107 mux.vhdl|
+!i113 1
+Z11 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+Z12 DEx4 work 3 mux 0 22 DCMOgeb6RCiIcTzef[DCB3
+!i122 0
+l17
+L16 6
+V7EggfmBbeTZgJD15[;0U42
+!s100 8]WSY;oP@GWgNTgiDh6=02
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+Emux_tb
+Z13 w1789572598
+R2
+R3
+!i122 1
+R0
+Z14 8mux_tb.vhdl
+Z15 Fmux_tb.vhdl
+l0
+L4 1
+VG_jC2Djk43Vm2OceW7_ji0
+!s100 8lKI?oW;?ZBCTPmKZPm?<0
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|mux_tb.vhdl|
+!s107 mux_tb.vhdl|
+!i113 1
+R11
+Asim
+R12
+R2
+R3
+DEx4 work 6 mux_tb 0 22 G_jC2Djk43Vm2OceW7_ji0
+!i122 1
+l14
+L7 39
+VQ>J?HC`fLA[Nj>oY3XbFT0
+!s100 l?PnOS_eG[@mmIenUZ0QR0
+R6
+32
+R7
+!i10b 1
+R8
+R16
+Z17 !s107 mux_tb.vhdl|
+!i113 1
+R11
