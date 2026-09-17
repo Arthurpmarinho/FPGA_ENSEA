@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/OneDrive - unb.br/8o_semestre/fpga/FPGA_ENSEA/projetos/fifo
+Efifo
+Z1 w1789636429
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z5 8fifo.vhdl
+Z6 Ffifo.vhdl
+l0
+L5 1
+Vk5AFii^XPO4@mBNZRcaT42
+!s100 gN6[=0UGiVkRzShd7zg]l3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1789637008
+!i10b 1
+Z9 !s108 1789637008.000000
+Z10 !s90 -reportprogress|300|fifo.vhdl|
+Z11 !s107 fifo.vhdl|
+!i113 1
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+Z13 DEx4 work 4 fifo 0 22 k5AFii^XPO4@mBNZRcaT42
+!i122 2
+l17
+L15 20
+V?hYLLAP7>Y=DioZej]1;P2
+!s100 1ECQ`GOHZJlY^<hQ?8D<>2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+Efifo_tb
+Z14 w1789636785
+R3
+R4
+!i122 3
+R0
+Z15 8fifo_tb.vhdl
+Z16 Ffifo_tb.vhdl
+l0
+L4 1
+V1aBE5P4kNdgzaT4idL^6<0
+!s100 T>cb5^<BYZOhEZk2M@Gee0
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|fifo_tb.vhdl|
+Z18 !s107 fifo_tb.vhdl|
+!i113 1
+R12
+Asim
+R2
+R13
+R3
+R4
+Z19 DEx4 work 7 fifo_tb 0 22 1aBE5P4kNdgzaT4idL^6<0
+!i122 3
+l13
+Z20 L7 44
+Z21 VXkK?E8nd=UQce5g@E>A[P3
+Z22 !s100 ]cGj`>;Mb6Ph]l9X7jf@L0
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
