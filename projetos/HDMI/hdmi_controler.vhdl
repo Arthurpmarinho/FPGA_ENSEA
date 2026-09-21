@@ -71,6 +71,41 @@ begin
             elsif (r_h_count = h_end) then
                 r_h_active <= '0';
             end if;
+        end if;
+    end process;
+
+
+    process (i_clk, i_rst_n)
+        variable v_count_next : natural range 0 to v_total;
+    begin
+        if i_rst_n = '0' then
+            r_v_count <= 0;
+            o_hdmi_vs <= '1';
+            r_v_active <= '0';
+        elsif rising_edge(i_clk) then
+            v_count_next := r_v_count;
+
+            if (r_h_count = h_total) then
+                if (r_v_count = v_total) then
+                    v_count_next := 0;
+                else
+                    v_count_next := r_v_count + 1;
+                end if;
+            end if;
+
+            r_v_count <= v_count_next;
+
+            if (v_count_next > v_sync) AND (v_count_next <= v_total) then
+                o_hdmi_vs <= '1';
+            else
+                o_hdmi_vs <= '0';
+            end if;
+
+            if (v_count_next > v_start) AND (v_count_next <= v_end) then
+                r_v_active <= '1';
+            else
+                r_v_active <= '0';
+            end if;
 
         end if;
     end process;

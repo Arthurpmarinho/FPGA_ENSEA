@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/User/OneDrive - unb.br/8o_semestre/fpga/FPGA_ENSEA/projetos/HDMI
 Ehdmi_controler
-Z1 w1789984582
+Z1 w1790001703
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 !i122 0
@@ -23,9 +23,9 @@ Vk`3W9aK5c`h73LS?`7NkJ2
 !s100 lU:hbHZ[_EkSGOZQ>H`fW1
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1789984598
+Z7 !s110 1790001714
 !i10b 1
-Z8 !s108 1789984598.000000
+Z8 !s108 1790001713.000000
 Z9 !s90 -reportprogress|300|hdmi_controler.vhdl|
 Z10 !s107 hdmi_controler.vhdl|
 !i113 1
@@ -36,9 +36,9 @@ R3
 Z12 DEx4 work 14 hdmi_controler 0 22 k`3W9aK5c`h73LS?`7NkJ2
 !i122 0
 l48
-L32 47
-VQ?zHM2jO6^dg94VRJlmF60
-!s100 Mho9;DgXz3<Hg^Lnd7U7Q3
+L32 82
+VT`YL_<e[iB;_hMzhk3ZBn2
+!s100 RfDJ<a7RUzEm<1olO07?92
 R6
 32
 R7
@@ -64,8 +64,8 @@ R6
 32
 R7
 !i10b 1
-R8
-Z16 !s90 -reportprogress|300|hdmi_controler_tb.vhdl|
+Z16 !s108 1790001714.000000
+Z17 !s90 -reportprogress|300|hdmi_controler_tb.vhdl|
 !s107 hdmi_controler_tb.vhdl|
 !i113 1
 R11
@@ -83,8 +83,8 @@ R6
 32
 R7
 !i10b 1
-R8
 R16
-Z17 !s107 hdmi_controler_tb.vhdl|
+R17
+Z18 !s107 hdmi_controler_tb.vhdl|
 !i113 1
 R11

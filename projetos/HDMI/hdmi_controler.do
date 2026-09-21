@@ -33,4 +33,4 @@ add wave -color green uut/o_pixel_address
 add wave -color green uut/o_x_counter
 add wave -color green uut/o_y_counter
 
-run 10 us
+run 4513090 ns
