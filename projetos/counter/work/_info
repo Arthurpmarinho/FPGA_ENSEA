@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/OneDrive - unb.br/8o_semestre/fpga/FPGA_ENSEA/projetos/counter
+Ecounter
+Z1 w1789638798
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8counter.vhdl
+Z6 Fcounter.vhdl
+l0
+L5 1
+VS8P5PA?X6YnIl_NMigZBA0
+!s100 N57;??`Lba2BZ_eVXW84F3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1789978933
+!i10b 1
+Z9 !s108 1789978933.000000
+Z10 !s90 -reportprogress|300|counter.vhdl|
+Z11 !s107 counter.vhdl|
+!i113 1
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+Z13 DEx4 work 7 counter 0 22 S8P5PA?X6YnIl_NMigZBA0
+!i122 0
+l19
+L17 18
+VC`3N=e5o3nYAhN5[V7lPU2
+!s100 PN3ONjcjHlmCl3cm?UAD92
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+Ecounter_tb
+Z14 w1789978793
+R3
+R4
+!i122 1
+R0
+Z15 8counter_tb.vhdl
+Z16 Fcounter_tb.vhdl
+l0
+L4 1
+V_MGDzYH?4CfF1hU5@U6l?3
+!s100 He71me4G68mBHlcLVcaN]0
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|counter_tb.vhdl|
+!s107 counter_tb.vhdl|
+!i113 1
+R12
+Asim
+R2
+R13
+R3
+R4
+DEx4 work 10 counter_tb 0 22 _MGDzYH?4CfF1hU5@U6l?3
+!i122 1
+l12
+L7 57
+VODi<iC:aUV>V`L_F9[]Q33
+!s100 Vodf;I7[XzcA4jJe2hWRH2
+R7
+32
+R8
+!i10b 1
+R9
+R17
+Z18 !s107 counter_tb.vhdl|
+!i113 1
+R12
