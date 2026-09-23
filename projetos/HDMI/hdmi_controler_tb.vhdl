@@ -17,7 +17,6 @@ architecture sim of hdmi_controler_tb is
 	signal clk           : std_logic := '0';
 	signal rst_n         : std_logic := '0';
 	signal hdmi_hs       : std_logic;
-	signal h_sync_out    : std_logic;
 	signal hdmi_vs       : std_logic;
 	signal hdmi_de       : std_logic;
 	signal pixel_en      : std_logic;
@@ -40,7 +39,6 @@ begin
 			i_clk           => clk,
 			i_rst_n         => rst_n,
 			o_hdmi_hs       => hdmi_hs,
-			o_h_sync        => h_sync_out,
 			o_hdmi_vs       => hdmi_vs,
 			o_hdmi_de       => hdmi_de,
 			o_pixel_en      => pixel_en,
