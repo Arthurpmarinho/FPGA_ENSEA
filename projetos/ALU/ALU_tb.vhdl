@@ -75,7 +75,7 @@ begin
         -- Caso 7: aritmética - multiplicação
         sel <= "110";
         wait for 10 ns;
-        assert led = std_logic_vector(unsigned(in0) * unsigned(in1))
+        assert led = std_logic_vector(resize(unsigned(in0) * unsigned(in1), bus_size))
             report "Erro no caso multiplicacao"
             severity error;
 

@@ -1,0 +1,14 @@
+# ModelSim / Questa
+work/
+*.wlf
+transcript
+*.vstf
+# Quartus
+db/
+incremental_db/
+output_files/
+*.qws
+# GHDL
+*.cf
+*.o
+e~*
