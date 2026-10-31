@@ -1,0 +1,15 @@
+name: VHDL testbenches
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  ghdl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install GHDL
+        run: sudo apt-get update -q && sudo apt-get install -y -q ghdl
+      - name: Run every testbench
+        run: bash scripts/run_testbenches.sh
